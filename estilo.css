@@ -1,0 +1,141 @@
+body {
+    background-color: rgb(219, 172, 189);
+}
+
+#titulo {
+    display: block;
+    color: white;
+    left: 20px;
+    margin-left: 30px;
+    margin-top: 85px;
+    text-align: left;
+    font-size: 40px;
+}
+
+@font-face {
+    font-family: 'Electrolize';
+    font-weight: 300;
+    src: url(Electrolize.ttf);
+}
+
+#wrapper {
+    font-family: 'Electrolize';
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+    background-color: rgb(192, 192, 192);
+}
+
+header {
+    background-image: url('imagenes/header.jpg');
+    height: 20vw;
+    background-size: cover;
+    position: relative;
+    color: white;
+    text-shadow: black;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(53, 145, 187);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #cf84b6;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.caracteristicas {
+    margin-left: 200px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+#cabecera {
+    color: rgb(170, 67, 101);
+    text-align: center;
+    font-size: 50px;
+}
+
+#texto {
+    position: relative;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+footer {
+    border-style: hidden;
+    background-color: rgb(53, 145, 187);
+    color: white;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    padding-right: 5%;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 15px;
+}
+
+div.img {
+    margin: 40px;
+    border-radius: 20px;
+    width: 200px;
+    display: inline-block;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width:600px) {
+    nav {
+        display: block;
+        padding: 0;
+        text-align: center;
+        border: 1px solid black;
+        font-size: 3.5;
+    }
+    /*section {
+font-size: 3.5vw;
+}*/
+    footer {
+        font-size: 2vw;
+    }
+}
